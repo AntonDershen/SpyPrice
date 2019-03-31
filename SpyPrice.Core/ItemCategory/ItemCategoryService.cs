@@ -14,6 +14,7 @@ namespace SpyPrice.Core.ItemCategory
                 await context.SaveChangesAsync();
             }
         }
+
         public async Task<bool> ItemCategoryExists(string code)
         {
             using (var context = new ApplicationContext())

@@ -7,6 +7,12 @@ namespace SpyPrice.Data
     {
         public DbSet<ItemCategory> ItemCategory { get; set; }
 
+        public DbSet<Item> Item { get; set; }
+
+        public DbSet<PriceLog> PriceLog { get; set; }
+
+        public DbSet<RateLog> RateLog { get; set; }
+
         public ApplicationContext()
         {
         }
