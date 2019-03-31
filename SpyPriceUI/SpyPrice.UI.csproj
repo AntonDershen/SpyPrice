@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.11.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlinerDataLoader\OnlinerDataLoader.csproj" />
+    <ProjectReference Include="..\SpyPrice.Core\SpyPrice.Core.csproj" />
+    <ProjectReference Include="..\SpyPrice.Data\SpyPrice.Data.csproj" />
+  </ItemGroup>
+
+</Project>
